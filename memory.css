@@ -1,0 +1,114 @@
+
+body{
+  text-align: center;
+  font-family:"zen-kaku gothic antique-black", "Hiragino Sans w3", "Hiragino Kaku Gothic PronN", "MS Pゴシック", sans-serif;
+  margin: 0 auto;
+  overflow: hidden;
+  
+}
+
+.train{
+  background-image:url("img/hatsukari.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+
+}
+
+h1 {
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  font-weight: boldest;
+  /* font-weight: 900; */
+  line-height: 1;
+}
+
+
+.daimei {
+  display: inline-block;
+  background:rgb(197, 204, 221);
+}
+
+.eawase {
+  background-image:url("img/jnr.jpg");
+  background-repeat: repeat;
+  /* background-size: cover; */
+  /* background-position: center top; */
+
+}
+
+
+#panel  {
+      width: 80%;
+      height: 80%;
+      overflow:hidden;
+      margin: auto;
+    }
+
+.card{
+      width : 16.5vw;
+      height: 11vw;
+      border: 1px solid silver;
+      border-radius:10px;
+      float:left;
+      cursor: pointer;
+    }
+
+img{
+      width: 16.5vw;
+      height: 11vw;
+    }
+
+    /* 裏の状態 */
+.back{
+      background-image: url('img/back2.jpg');
+      background-size: 16.5vw 11vw;
+      }
+
+      /* 終了時 */
+.finish{
+        opacity:1;
+        cursor: default;
+      }
+      
+      /* 経過秒数 */
+#result{ 
+        font-size: 1.2em;
+        font-weight: bold;
+       } 
+
+      /* ボタンのデザイン 
+input[type="button"]{
+  font-size: 150%;
+}*/
+
+.btn {
+  display       : inline-block;
+  border-radius : 5%;          /* 角丸       */
+  font-size     : 18pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 12px 12px;   /* 余白       */
+  background    : darkblue;     /* 背景色     */
+  color         : #FFFFEE;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  box-shadow    : 6px 6px 3px #A7B866; /* 影の設定 */
+  border        : none;    /* 枠の指定 */
+  text-decoration:none  /* 下線を消す */
+}
+
+.gbtn {
+  display       : inline-block;
+  border-radius : 5%;          /* 角丸       */
+  font-size     : 18pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 12px 12px;   /* 余白       */
+  background    : olivedrab;     /* 背景色     */
+  color         : #FFFFEE;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  box-shadow    : 6px 6px 3px #A7B866; /* 影の設定 */
+  border        : none;    /* 枠の指定 */
+  text-decoration:none  /* 下線を消す */
+}
