@@ -29,8 +29,7 @@ let img_arr = [
     "img/choukai","img/fuji","img/hakuchoh","img/hakusan",
     "img/hakutaka","img/hamakaze","img/hatsukariL","img/hibariL",
     "img/hida","img/hita","img/hokuetsu","img/hokuriku",
-    "img/hokutosei","img/howaito","img/ishikari",
-    "img/ishizuchi",
+    "img/hokutosei","img/howaito","img/ishikari","img/ishizuchi",
     "img/JNR2","img/JNR3","img/kaetsu","img/kaijiL",
     "img/kamomeL","img/kii","img/komakusa","img/kuroshio",
     "img/marimo","img/mutsu","img/nanki","img/nichirinL",
@@ -39,10 +38,9 @@ let img_arr = [
     "img/sazanami","img/shinanoL","img/shinsetsu","img/shiokaze",
     "img/shiokazeL","img/shiosaiL","img/shiraneL","img/shirasagiL",
     "img/suigou","img/suisei","img/tanigawaL","img/tanigawa",
-    "img/tohkai","img/toki",
-    "img/tsubame","img/tsubasa","img/uzushio","img/yakumoL",
-    "img/yamabiko","img/hakutsuruR","img/hatsukariR1","img/hatsukariR2",
-    "img/kokutetsudoori1"
+    "img/tohkai","img/toki","img/tsubame","img/tsubasa",
+    "img/uzushio","img/yakumoL","img/yamabiko","img/hakutsuruR",
+    "img/hatsukariR1","img/hatsukariR2","img/kokutetsudoori1"
     /*,"img/","img/"*/
     
 ];
