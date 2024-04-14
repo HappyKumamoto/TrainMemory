@@ -1,4 +1,6 @@
 //"use strict";
+let el = document.createElement("script");//紙吹雪のkamiFu.jsを持ってくる
+el.src = "kamiFu.js";
 
 // グローバル
 // div要素を格納
@@ -180,6 +182,8 @@ function turn(e){
                 
                 if (countUnit === 6 ){     //すべてのペアが揃ったら10ペアのときは10
                     clearInterval(timer);  // timer終了
+
+                    document.body.appendChild(el);  //kami.jsで紙吹雪を出す
                 }
             }, 500)
 
