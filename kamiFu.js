@@ -4,7 +4,8 @@ let screen_h = window.innerHeight;
 const KAMIFUBUKI = 150;//紙の枚数
 const COLORS = 
 ["#F5A4B8","#BEC14B","#DED5C0","#F8D400","#BBD33E","#A85EAC",
- "#D64464","#ffff00","#ff4500","#9932cc","#00ffff","#ffcc00"];
+ "#D64464","#ffff00","#ff4500","#9932cc","#00ffff","#ffcc00",
+"orange","dodgerblue"];
 //鴇色(とき),鶸色(ひわ),象牙色,ジョンブリアン,シャトルーズグリーン,パープル,ローズ
 
 function rand(min , max){//ランダムのrand関数  minとmaxの間で整数の乱数を求める
