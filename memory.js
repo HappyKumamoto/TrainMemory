@@ -40,7 +40,7 @@ let img_arr = [
     "img/suigou","img/suisei","img/tanigawaL","img/tanigawa",
     "img/tohkai","img/toki","img/tsubame","img/tsubasa",
     "img/uzushio","img/yakumoL","img/yamabiko","img/hakutsuruR",
-    "img/hatsukariR1","img/hatsukariR2","img/kokutetsudoori1"
+    "img/hatsukariR1","img/hatsukariR2","img/kokutetsudoori1","img/kamomeR"
     /*,"img/","img/"*/
     
 ];
