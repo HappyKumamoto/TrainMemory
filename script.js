@@ -18,7 +18,7 @@ const speedMax = 2.0;              // 速度の最大値 //
 const speedMin = 0.5;              // 速度の最小値 //
 const wind = 100;
 const img = new Image();
-img.src = "img/hatsukariR2.jpg";       // 画像を設定//
+img.src = "img/hatsukari.jpg";       // 画像を設定//
 img.onload = () => {
   resizeCanvas();
   flow_start();
