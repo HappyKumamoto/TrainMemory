@@ -10,7 +10,7 @@ let kip = document.getElementsByClassName('kip');
 function kipMaker(n) {
     let kip = document.createElement("div");
     kip.className = "kip";
-    let p = '<img src=img/koufuku50.jpg alt="画像" />';
+    let p = '<img src=img/koufuku1.jpg alt="画像" />';
     kip.innerHTML = p;
     for(let i = 0; i < n; i++) {
         kipSet(kip);
@@ -23,7 +23,7 @@ function kipSet(clone) {
     let kipStyle = kipClone.style;
 
     //絵文字の位置（left）、時間をずらす（animation-delay）、サイズ（font-size）をランダムで指定
-    kipStyle.left = 50 * Math.random() + "%";
+    kipStyle.left = 100 * Math.random() + "%";
     kipStyle.animationDelay = 12 * Math.random() + "s";
     kipStyle.fontSize = Math.floor(50 * Math.random() + 20) + "px";
     document.body.appendChild(kipClone);
@@ -33,7 +33,7 @@ function kipSet(clone) {
         this.parentNode.removeChild(this);
         let kip = document.createElement("div");
         kip.className = "kip";
-        let p = '<img src=img/koufuku50.jpg alt="画像" />';
+        let p = '<img src=img/koufuku1.jpg alt="画像" />';
         kip.innerHTML = p;
         kipSet(kip);
     }, false)
