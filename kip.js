@@ -10,7 +10,7 @@ let kip = document.getElementsByClassName('kip');
 function kipMaker(n) {
     let kip = document.createElement("div");
     kip.className = "kip";
-    let p = '<img src=img/koufuku.jpg alt="画像" />';
+    let p = '<img src=img/koufuku50.jpg alt="画像" />';
     kip.innerHTML = p;
     for(let i = 0; i < n; i++) {
         kipSet(kip);
@@ -33,7 +33,7 @@ function kipSet(clone) {
         this.parentNode.removeChild(this);
         let kip = document.createElement("div");
         kip.className = "kip";
-        let p = '<img src=img/koufuku.jpg alt="画像" />';
+        let p = '<img src=img/koufuku50.jpg alt="画像" />';
         kip.innerHTML = p;
         kipSet(kip);
     }, false)
