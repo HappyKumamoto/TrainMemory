@@ -69,20 +69,20 @@ window.onload = function(){
     let arr = [];
     for (let i = 0; i < 6; i++ ){   //10ペアのときは10
         
-        // ペアの数字を10組
+        // ペアの数字を6組
         arr.push(i);
         arr.push(i);
-    }   //[0,0,1,1,2,2,....8,8,9,9]合計20の要素
+    }   //[0,0,1,1,2,2,...5,5]合計12の要素
     
     // シャッフル後は配列の中身が変わっている
-    //     [1.7.3.4.4.5.....]
+    //     [1.4.3.2.4.5.....]
     //そうしてからゲーム用panelを取得する
     //このpanelの中に実際のカードが入っていることになる
     shuffle(arr);
     let panel = document.getElementById('panel');
     
     // div要素作成(カードの作成)
-    // 全部で20枚必要 for文で作成
+    // 全部で12枚必要 for文で作成
     for (i = 0; i < 12; i++){    //10ペアのときは20
         let div = document.createElement('div');  //divタグの作成
         div.className = 'card back';  //最初カードの裏面を表示
@@ -192,12 +192,6 @@ function turn(e){
                     let acts = [ ki , el ];
                     let actNo = Math.floor( Math.random() * acts.length);
                     document.body.appendChild(acts[actNo]);
-
-                    /*if ( elapsedTime < 120) {
-                        document.body.appendChild(ki);
-                    }else{
-                        document.body.appendChild(el);
-                    }*/
                 }
             }, 500)
 
@@ -231,11 +225,6 @@ function showSecond(){
     let re = document.getElementById('result');
     re.innerHTML = str;
 
-    /*if ( elapsedTime < 50) {
-        document.body.appendChild(ki);
-    }else{
-        document.body.appendChild(el);
-    }*/
 }
 
 let btnReload = document.getElementById('btnReload');
