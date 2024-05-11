@@ -1,0 +1,22 @@
+body {
+  overflow:hidden;
+}
+
+.kip , .roll{  /*回転しながら降りていく*/
+  animation: yukimi 20s linear;
+  display: inline-block;
+  height: 1em;
+  line-height: 1em;
+  position: fixed;
+  top: -1em;
+  z-index: 1000;
+}
+
+@keyframes yukimi {
+  0% {
+      transform:translateY(0) rotateY(0);
+  }
+  100% {
+      transform:translateY(calc(100vh + 1em)) rotateY(3600deg);
+  }
+}
