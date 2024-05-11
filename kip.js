@@ -23,7 +23,7 @@ function kipSet(clone) {
     let kipStyle = kipClone.style;
 
     //絵文字の位置（left）、時間をずらす（animation-delay）、サイズ（font-size）をランダムで指定
-    kipStyle.left = 100 * Math.random() + "%";
+    kipStyle.left = 50 * Math.random() + "%";
     kipStyle.animationDelay = 12 * Math.random() + "s";
     kipStyle.fontSize = Math.floor(50 * Math.random() + 20) + "px";
     document.body.appendChild(kipClone);
