@@ -33,7 +33,7 @@ function kipSet(clone) {
         this.parentNode.removeChild(this);
         let kip = document.createElement("div");
         kip.className = "kip";
-        let p = '<img src=img/akebono.jpg alt="画像" />';
+        let p = '<img src=img/koufuku.jpg alt="画像" />';
         kip.innerHTML = p;
         kipSet(kip);
     }, false)
