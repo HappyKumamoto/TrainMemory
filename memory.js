@@ -193,7 +193,7 @@ function turn(e){
                 if (countUnit === 6 ){     //すべてのペアが揃ったら10ペアのときは10
                     clearInterval(timer);  // timer終了
 
-                    let acts = [ ki , el ];
+                    let acts = [ ki , el , sc ];
                     let actNo = Math.floor( Math.random() * acts.length);
                     document.body.appendChild(acts[actNo]);
                 }
