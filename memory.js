@@ -1,9 +1,13 @@
 //"use strict";
-const el = document.createElement("script");//紙吹雪のkamifu.jsを持ってくる
+const el = document.createElement("script");  //紙吹雪
 el.src = "kamifu.js";
 
-const ki= document.createElement("script");//kip.js
+const ki= document.createElement("script");//kip.js 切符が回りながら上から下へ
 ki.src = "kip.js";
+
+const sc=document.createElement("script");  //script.js 斜めにひらひらと舞う
+sc.src = "script.js";
+
 // グローバル
 // div要素を格納
 let cards = [];
