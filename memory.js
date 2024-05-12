@@ -5,8 +5,9 @@ el.src = "kamifu.js";
 const ki= document.createElement("script");//kip.js 切符が回りながら上から下へ
 ki.src = "kip.js";
 
-const sc=document.createElement("script");  //script.js 斜めにひらひらと舞う
-sc.src = "script.js";
+//canvasを使うためか機能停止するので中止
+//const sc=document.createElement("script");  //script.js 斜めにひらひらと舞う
+//sc.src = "script.js";
 
 // グローバル
 // div要素を格納
@@ -193,7 +194,7 @@ function turn(e){
                 if (countUnit === 6 ){     //すべてのペアが揃ったら10ペアのときは10
                     clearInterval(timer);  // timer終了
 
-                    let acts = [ ki , el , sc ];
+                    let acts = [ ki , el ];  //sc は中止
                     let actNo = Math.floor( Math.random() * acts.length);
                     document.body.appendChild(acts[actNo]);
                 }
